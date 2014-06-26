@@ -82,7 +82,7 @@ if __name__ == "__main__":
     else:
         filepath = sys.argv[1]
         encoding = sys.argv[2]
-    
+
     source = codecs.open(filepath, encoding=encoding).read()
     try:
         play(source)
